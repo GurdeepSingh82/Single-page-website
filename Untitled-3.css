@@ -1,0 +1,517 @@
+*{
+    margin: 0%;
+}
+.header-1{
+   display: inline-flex;
+   height: 80px;
+   align-items: center;
+   width: 100vw;
+   background-color:rgb(98, 189, 98);
+   position: fixed;
+}
+.header-1:hover{
+    cursor: pointer;
+    background-color:yellow;
+    transition: 1s;
+}
+@media(max-width: 792px){
+      nav{
+          margin-left: 10px!important;
+      }
+}
+    
+/* @media(max-width: 700px){
+    .header-1{
+      font-size: 5vw;
+      display: block;
+     position: relative;
+     height: 0%;
+    }
+} */
+nav{
+   display: flex;
+   align-items: center;
+   margin-left: 100px;
+   height: 100%;
+   width: 100%;
+}
+
+ nav :hover{
+    cursor: pointer;
+}
+nav h1{
+    font-size: 28px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-family: Verdana,  Tahoma, sans-serif;
+}
+nav div{
+    height: 65px;
+    width: 65px;
+    border:1px solid red;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: red;
+}
+nav div img{
+  padding-top: 4.2px;
+  padding-left: 4.2px;
+  border-radius: 50%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: end;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-style:unset;
+}
+li{
+    border-left: 1px solid rgb(134, 131, 131);
+    border-right: 1px solid rgb(167, 164, 164);
+    text-align: center;
+    padding: 30px 30px 20px 20px;
+    box-sizing: border-box;
+}
+ul :hover {
+    cursor: pointer;
+    background-color: red;
+    transition: 1s;
+}
+/*----------home---------*/
+.home{
+    height: 100vh;
+    background-image:url(./images/photo-1422493757035-1e5e03968f95.jfif);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.home-section{
+   height: 100%;
+   box-sizing: border-box;
+   border: 1px solid rgb(197, 187, 75);
+}
+.home-section1{
+    align-items: center;
+    box-sizing: border-box; 
+    margin:220px 150px;
+    background-color: white;
+    padding: 30px 30px;
+}
+.if{
+    border: 1px solid rgb(114, 111, 111);
+    background-color: white;
+    height: 50px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 25px; 
+    display: flex;
+}
+.if input{
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-top: 0%;
+}
+input[placeholder^="Type"]{
+    background-image: url(./images/icons8-location-48.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30px;
+}
+.div1{
+    display: flex;
+    box-sizing: border-box;
+    column-gap: 12px;
+    margin-bottom: 30px;
+}
+.div2{
+    display: flex;
+    box-sizing: border-box;
+    column-gap: 12px;
+    margin-bottom: 30px;
+}
+.button{
+    border: 1px solid red;
+    background-color: rgb(252, 92, 18);
+    color:white;
+    height: 50px;
+    width: 220px;
+}
+.button:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.home1{
+    box-sizing: border-box;
+    height: 100vh;
+}
+.home1-section1{
+    height: 220px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.home1-section2{
+    top: -1px;
+    width: 100%;
+    height: 100px;    
+}
+.home1-section1 h1{
+   font-size: 60px;
+   font-weight: 250;
+}
+.home1-section1 p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.button1{
+    border: 1px solid white;
+    background-color: rgb(252, 92, 18);
+    color:white;
+    height: 50px;
+    width: 220px;
+    margin-top: 20px;
+}
+.button1:hover{
+    background-color:white;
+    transition: 0.5s;
+    color:red;
+}
+.home1-section3{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+.home1-sectionA{
+    margin-left: 50px;
+    padding: 40px 50px 30px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.home1-sectionA:hover{
+    box-shadow: 0px 0px 4px brown;
+    transition: 0.5s;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.home1-sectionA p{
+    line-height: 25px;
+}
+.home1-sectionB{
+    padding: 40px 50px 30px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.home1-sectionB:hover{
+    box-shadow: 0px 0px 4px brown;
+    transition: 0.5s;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.home1-sectionB p{
+    line-height: 25px;
+}
+.home1-sectionC{ 
+    margin-right: 50px;
+    padding: 40px 50px 30px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.home1-sectionC:hover{
+    box-shadow: 0px 0px 4px brown;
+    transition: 0.5s;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.home1-sectionC p{
+    line-height: 25px;
+}
+.icon{
+    font-size: 70px;
+    color: red;
+    margin-bottom: 15px;
+}
+.home1-section3 h2{
+    color: red;
+    margin-bottom: 15px;
+}
+span{
+    color: red;
+    font-size: 13px;
+}
+
+
+/*--------------Portfolio-----------*/
+.portfolio{
+  border: 1px solid rgb(255, 253, 253);
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(250, 250, 246);
+  margin-top: 50px;
+}
+.portfolio-section{
+    display: flex;
+    margin: 100px 120px;
+}
+.portfolio-section1{
+    display: flex;
+    overflow: auto;
+    margin: 15px;
+    width: 70%;
+    text-align: left;
+}
+.portfolio-sectionA{
+    background-color: white;
+    margin-right: 5px;
+    width: 21em;
+}
+.portfolio-sectionA h2{
+    padding: 10px;
+}
+.portfolio-sectionA p{
+    padding: 10px;
+    line-height: 25px;
+}
+.portfolio-sectionB{
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 21em;
+}
+.portfolio-sectionB h2{
+    padding: 10px;
+}
+.portfolio-sectionB p{
+    padding: 10px;
+    line-height: 25px;
+}
+.portfolio-sectionC{
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 21em;
+}
+.portfolio-sectionC h2{
+    padding: 10px;
+}
+.portfolio-sectionC p{
+    padding: 10px;
+    line-height: 25px;
+}
+.portfolio-sectionD{
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 21em;
+}
+.portfolio-sectionD h2{
+    padding: 10px;
+}
+.portfolio-sectionD p{
+    padding: 10px;
+    line-height: 25px;
+}
+.portfolio-sectionE{
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 21em;
+}
+.portfolio-sectionE h2{
+    padding: 10px;
+}
+.portfolio-sectionE p{
+    padding: 10px;
+    line-height: 25px;
+}
+.portfolio-sectionF{
+    background-color: white;
+    margin-left: 5px;
+    width: 21em;
+}
+.portfolio-sectionF h2{
+    padding: 10px;
+}
+.portfolio-sectionF p{
+    padding: 10px;
+    line-height: 25px;
+}
+.portfolio-section2{
+    margin: 15px;
+    background-color: white;
+    height: 83vh;
+}
+.portfolio-secA{
+    background-color: red;
+    padding: 5px 15px;
+    color: white;
+}
+.portfolio-secA p{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 10px;
+    height: 10%;
+}
+.portfolio-secB{
+    display: flex;
+    background-color: rgb(248, 242, 242);
+    margin: 15px;
+    align-items: center;
+}
+.portfolio-secB h2{
+    padding-left: 17px;
+}
+.portfolio-secC{
+    display: flex;
+    background-color: rgb(248, 242, 242);
+    margin: 15px;
+    align-items: center;
+}
+.portfolio-secC h2{
+    padding-left: 17px;
+}
+.portfolio-secD{
+    display: flex;
+    background-color: rgb(248, 242, 242);
+    margin: 15px;
+    align-items: center;
+}
+.portfolio-secD h2{
+    padding-left: 17px;
+}
+.portfolio-secE{
+    display: flex;
+    background-color: rgb(248, 242, 242);
+    margin: 15px;
+    align-items: center;
+}
+.portfolio-secE h2{
+    padding-left: 17px;
+}
+.but{
+    border: 1px solid white;
+    background-color: rgb(252, 92, 18);
+    color:white;
+    height: 40px;
+    margin: 10px;
+    width: 90%;
+}
+.but:hover{
+    background-color:white;
+    transition: 0.5s;
+    color:red;
+}
+
+
+/*--------blog entries----*/
+ .blog{
+     border: 1px solid rgb(248, 248, 246);
+     background-image: url(./images/bg-img-2.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+.blog-section{
+    display: flex;
+    margin: 90px;
+} 
+.blog-section1{
+    width: 40%;
+    text-align: center;
+   padding-top: 260px;
+} 
+.blog-section2{
+    width: 70%;
+    border: 1px solid rgb(247, 247, 243);
+    box-shadow: 0px 0px 4px rgb(206, 206, 204);
+}          
+.blog-sectionA{
+    display: flex;
+    margin: 20px;
+}
+.blog-sectionA div{
+    margin: 0px 20px;
+}
+.blog-sectionB{
+    display: flex;
+    margin: 20px;
+}
+.blog-sectionB div{
+    margin: 0px 20px;
+}
+.blog-sectionC{
+    display: flex;
+    margin: 20px;
+}
+.blog-sectionC div{
+    margin: 0px 20px;
+}
+
+/*---------Contact-Us----------*/
+.contact{
+    background-image:url(./images/bg-img-3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.contact-section{
+    display: flex;
+    padding: 100px;
+}
+.contact-section2{
+    margin-left: 80px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.fa{
+    margin: 25px;
+    box-sizing: border-box;
+}
+.in{
+     width: 100%;
+     box-sizing: border-box;
+     background-color: rgb(226, 223, 223);
+     border: none;
+     height: 40px;
+     margin-bottom: 15px;
+     padding: 10px;
+}
+.out{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(226, 223, 223);
+    border: none;
+    height: 170px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.cont{
+    border: none;
+    background-color: rgb(252, 92, 18);
+    color:white;
+    height: 40px;
+    width: 100%;
+    padding: 0%; 
+}
+.cont:hover{
+    background-color:rgb(189, 65, 65);
+    transition: 0.5s;
+}
+.footer{
+    color: white;
+    background-color: rgb(22, 66, 66);
+    height: 80px;
+    text-align: center;
+}
+.footer div{
+padding: 30px;
+}
